@@ -24,8 +24,8 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Home Page'} />
-      <Header title="Home Page">Gatsby Tutorial Starter</Header>
+      <Helmet title={'Law Chamber Dhaka'} />
+      <Header title="Welcome to Law Chamber Dhaka">Contact us: <strong>01830-843483</strong></Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
