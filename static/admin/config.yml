@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: shakif95/law-chamber-dhaka-prod
+  repo: lawchamberdhaka/law-chamber-dhaka-prod
   branch: master
 
 media_folder: static/assets
